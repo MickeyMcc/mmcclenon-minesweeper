@@ -1,6 +1,6 @@
 {
     "name": "mmcclenon-minesweeper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Standalone component for minesweeper. From https://github.com/MickeyMcc/minesweeper",
     "main": "./lib/Game.js",
     "license": "MIT",
@@ -24,8 +24,8 @@
         "react-dom": "^16.0.0",
         "webpack": "^4.5.0",
         "webpack-cli": "^3.2.1",
-        "file-loader": "^6.0.0",
         "style-loader": "^1.1.4",
-        "css-loader": "^3.5.2"
+        "css-loader": "^3.5.2",
+        "raw-loader": "^4.0.1"
     }
 }
