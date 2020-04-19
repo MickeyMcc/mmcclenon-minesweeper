@@ -1,18 +1,30 @@
 import * as React from 'react';
+import zero from './assets/check-box-empty.png';
+import one from './assets/one.png';
+import two from './assets/two.png';
+import three from './assets/three.png';
+import four from './assets/four.png'; 
+import five from './assets/five.png';
+import six from './assets/six.png'; 
+import seven from './assets/seven.png';
+import eight from './assets/eight.png';
+import square from './assets/rounded-black-square-shape.png';
+import bomb from './assets/bomb.png';
+import flag from './assets/flag.png';
 
 const images = {
-  0: (require('./assets/check-box-empty.png')),
-  1: (require('./assets/one.png')),
-  2: (require('./assets/two.png')),
-  3: (require('./assets/three.png')),
-  4: (require('./assets/four.png')), 
-  5: (require('./assets/five.png')),
-  6: (require('./assets/six.png')), 
-  7: (require('./assets/seven.png')),
-  8: (require('./assets/eight.png')),
-  square: (require('./assets/rounded-black-square-shape.png')),
-  bomb: (require('./assets/bomb.png')),
-  flag: (require('./assets/flag.png')),
+  0: zero,
+  1: one,
+  2: two,
+  3: three,
+  4: four, 
+  5: five,
+  6: six, 
+  7: seven,
+  8: eight,
+  square: square,
+  bomb,
+  flag,
 }
 
 const Cell = (props) => {
