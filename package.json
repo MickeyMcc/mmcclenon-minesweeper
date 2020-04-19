@@ -1,11 +1,12 @@
 {
     "name": "mmcclenon-minesweeper",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Standalone component for minesweeper. From https://github.com/MickeyMcc/minesweeper",
     "main": "./lib/Game.js",
     "license": "MIT",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack",
+        "push": "npm run build && npm publish && git add . && git commit"
     },
     "peerDependencies": {
         "prop-types": "^15.6.0",
