@@ -87,7 +87,7 @@ class App extends React.Component {
   render() {
     const { Header } = this;
     return (
-      <div className="App">
+      <div className="Minesweeper">
         <h2>{this.props.title}</h2>
         <Header />
         {this.state.gameStarted && <Board 

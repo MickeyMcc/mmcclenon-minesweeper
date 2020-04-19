@@ -1,6 +1,6 @@
 {
     "name": "mmcclenon-minesweeper",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Standalone component for minesweeper. From https://github.com/MickeyMcc/minesweeper",
     "main": "./lib/Game.js",
     "license": "MIT",
