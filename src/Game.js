@@ -1,6 +1,4 @@
 import * as React from 'react';
-import './App.css';
-
 import Board from './Board.js';
 
 class App extends React.Component {

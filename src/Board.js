@@ -1,6 +1,4 @@
 import * as React from 'react';
-import './App.css';
-
 import { createBoard, updateClickedStatus, resetBoard } from './helpers.js';
 import Cell from './Cell.js';
 
